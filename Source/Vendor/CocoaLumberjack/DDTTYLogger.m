@@ -34,7 +34,7 @@
 
 // Xcode does NOT natively support colors in the Xcode debugging console.
 // You'll need to install the XcodeColors plugin to see colors in the Xcode console.
-// https://github.com/robbiehanson/XcodeColors
+// https://github.com/SUNNYCLOCK-AG/XcodeColors
 // 
 // The following is documentation from the XcodeColors project:
 // 

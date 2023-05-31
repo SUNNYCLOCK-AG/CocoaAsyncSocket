@@ -5,7 +5,7 @@
 //  Originally created by Robbie Hanson of Deusty LLC.
 //  Updated and maintained by Deusty LLC and the Apple development community.
 //  
-//  https://github.com/robbiehanson/CocoaAsyncSocket
+//  https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket
 //
 
 #import <Foundation/Foundation.h>

@@ -5,7 +5,7 @@
 //  Originally created by Robbie Hanson in Q4 2010.
 //  Updated and maintained by Deusty LLC and the Apple development community.
 //
-//  https://github.com/robbiehanson/CocoaAsyncSocket
+//  https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket
 //
 
 #import "GCDAsyncSocket.h"
@@ -31,7 +31,7 @@
 
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
-// For more information see: https://github.com/robbiehanson/CocoaAsyncSocket/wiki/ARC
+// For more information see: https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket/wiki/ARC
 #endif
 
 
@@ -44,7 +44,7 @@
 // Logging Enabled - See log level below
 
 // Logging uses the CocoaLumberjack framework (which is also GCD based).
-// https://github.com/robbiehanson/CocoaLumberjack
+// https://github.com/SUNNYCLOCK-AG/CocoaLumberjack
 // 
 // It allows us to do a lot of logging without significantly slowing down the code.
 #import "DDLog.h"
@@ -8346,7 +8346,7 @@ static void CFWriteStreamCallback (CFWriteStreamRef stream, CFStreamEventType ty
 				else if (res->ai_family == AF_INET6)
 				{
 					// Fixes connection issues with IPv6
-					// https://github.com/robbiehanson/CocoaAsyncSocket/issues/429#issuecomment-222477158
+					// https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket/issues/429#issuecomment-222477158
 					
 					// Found IPv6 address.
 					// Wrap the native address structure, and add to results.

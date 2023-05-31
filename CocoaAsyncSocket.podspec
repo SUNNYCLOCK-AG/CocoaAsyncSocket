@@ -11,10 +11,10 @@ Updated and maintained by Deusty LLC and the Apple development community.
                  LICENSE
                }
   s.summary  = 'Asynchronous socket networking library for Mac and iOS.'
-  s.homepage = 'https://github.com/robbiehanson/CocoaAsyncSocket'
-  s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
+  s.homepage = 'https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket'
+  s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'SUNNYCLOCK-AG@deusty.com' }
 
-  s.source   = { :git => 'https://github.com/robbiehanson/CocoaAsyncSocket.git',
+  s.source   = { :git => 'https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket.git',
                  :tag => "#{s.version}" }
 
   s.description = 'CocoaAsyncSocket supports TCP and UDP. The AsyncSocket class is for TCP, and the AsyncUdpSocket class is for UDP. ' \

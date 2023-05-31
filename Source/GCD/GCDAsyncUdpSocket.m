@@ -5,14 +5,14 @@
 //  Originally created by Robbie Hanson of Deusty LLC.
 //  Updated and maintained by Deusty LLC and the Apple development community.
 //  
-//  https://github.com/robbiehanson/CocoaAsyncSocket
+//  https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket
 //
 
 #import "GCDAsyncUdpSocket.h"
 
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
-// For more information see: https://github.com/robbiehanson/CocoaAsyncSocket/wiki/ARC
+// For more information see: https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket/wiki/ARC
 #endif
 
 #if TARGET_OS_IPHONE
@@ -34,7 +34,7 @@
 // Logging Enabled - See log level below
 
 // Logging uses the CocoaLumberjack framework (which is also GCD based).
-// https://github.com/robbiehanson/CocoaLumberjack
+// https://github.com/SUNNYCLOCK-AG/CocoaLumberjack
 // 
 // It allows us to do a lot of logging without significantly slowing down the code.
 #import "DDLog.h"
@@ -1243,7 +1243,7 @@ enum GCDAsyncUdpSocketConfig
 					{
 
                         // Fixes connection issues with IPv6, it is the same solution for udp socket.
-                        // https://github.com/robbiehanson/CocoaAsyncSocket/issues/429#issuecomment-222477158
+                        // https://github.com/SUNNYCLOCK-AG/CocoaAsyncSocket/issues/429#issuecomment-222477158
                         struct sockaddr_in6 *sockaddr = (struct sockaddr_in6 *)(void *)res->ai_addr;
                         in_port_t *portPtr = &sockaddr->sin6_port;
                         if ((portPtr != NULL) && (*portPtr == 0)) {
